@@ -21,8 +21,9 @@ public class EmployeeAController {
 		temp.setId(emt.getId());
 		if(emt.getEmployee_name().startsWith("a")) {
 			temp.setEmployee_name(emt.getEmployee_name());
-		}
+		
 		transformedvalues.add(temp);
+		}
 	}
 	return transformedvalues;
 }
